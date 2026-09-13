@@ -1878,7 +1878,7 @@ list1.extend(list2)
 
 # Remove duplicates using list comprehension
 l = []
- [l.append(x) for x in list1 if x not in l]
+[l.append(x) for x in list1 if x not in l]
 # Sort the list
 l.sort()
 
